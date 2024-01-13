@@ -66,7 +66,7 @@ public class Main {
         var humanAdded = 94 + human;
         var humanHourNew = humanAdded * humanHour;
         System.out.println("Если в компании работает " + humanAdded + " человек, то всего " + humanHourNew +
-                " часов работы может быть поделено между сотрудниками");}
+                " часов работы может быть поделено между сотрудниками");  }
 
 
     }
