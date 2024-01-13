@@ -11,38 +11,38 @@ public class Main {
         System.out.println(paper);
         // Задание 2
         System.out.println("Задание 2");
-        var dogSum = dog + 2;
-        var catSum = cat + 2;
-        var paperSum = paper + 2;
-        System.out.println(dogSum);
-        System.out.println(catSum);
-        System.out.println(paperSum);
+        dog = dog + 2;
+        cat = cat + 2;
+        paper = paper + 2;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
         // Задание 3
         System.out.println("Задание 3");
-        var dogMinus = dog - 3.5;
-        var catMinus  = cat - 1.6;
-        var paperMinus  = paper - 7639;
-        System.out.println(dogMinus);
-        System.out.println(catMinus);
-        System.out.println(paperMinus);
+        double dog1 = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+        System.out.println(dog1);
+        System.out.println(cat);
+        System.out.println(paper);
         // Задание 4
         System.out.println("Задание 4");
         var friend = 19;
         System.out.println(friend);
-        var friendMultiplication = friend * 2;
-        System.out.println(friendMultiplication);
-        var  frienddDvision = friendMultiplication / 7;
-        System.out.println(frienddDvision);
+        friend = friend * 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
         // Задание 5
         System.out.println("Задание 5");
         var frog = 3.5;
         System.out.println(frog);
-        var frogMultiplication = frog * 10;
-        System.out.println(frogMultiplication);
-        var frogDvision = frogMultiplication / frog;
-        System.out.println(frogDvision);
-        var frogSum = frogDvision + 4;
-        System.out.println(frogSum);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
         // Задание 6
         System.out.println("Задание 6");
         var boxer1 = 78.2;
@@ -53,10 +53,8 @@ public class Main {
         System.out.println("Разница между массами бойцов " + boxerDifference);
         // Задание 7
         System.out.println("Задание 7");
-        var boxerNew = 78.2;
-        var boxerNew1 = 82.7;
-        var boxerDifferenceNew = boxerNew1 - boxerNew;
-        var boxerDifferenceNew1 = boxerNew1 % boxerNew;
+        var boxerDifferenceNew = boxer2 - boxer1;
+        var boxerDifferenceNew1 = boxer2 % boxer1;
         System.out.println("Разница между массами бойцов " + boxerDifferenceNew);
         System.out.println("Разница между массами бойцов " + boxerDifferenceNew1);
         // Задание 8
@@ -65,33 +63,10 @@ public class Main {
         var humanHour = 8;
         var human = hour / humanHour;
         System.out.println("Всего работников в компании — " + human + " человек");
-        var humanAdded = 94;
-        var humanSum = human + humanAdded;
-        var humanHourNew = humanSum * humanHour;
-        System.out.println("Если в компании работает " + humanSum + " человек, то всего " + humanHourNew +
-                " часов работы может быть поделено между сотрудниками");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        var humanAdded = 94 + human;
+        var humanHourNew = humanAdded * humanHour;
+        System.out.println("Если в компании работает " + humanAdded + " человек, то всего " + humanHourNew +
+                " часов работы может быть поделено между сотрудниками");}
 
 
     }
-}
